@@ -1,0 +1,92 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "StMarie-Thin";
+  src: url("./StMarie-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "raleway";
+  src: url("./Raleway-Medium.woff2") format("woff2");
+}
+.name-box {
+  color: black;
+  font-family: "StMarie-Thin";
+  font-size: 35px;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a img:last-child {
+  display: none;
+}
+
+a:hover img:last-child {
+  display: block;
+}
+
+a:hover img:first-child {
+  display: none;
+}
+
+.button-box {
+  color: black;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -10%);
+}
+
+.butt {
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.image-box {
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  bottom: -50%;
+  margin-right: -50%;
+  transform: translate(-50%, -10%);
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
