@@ -21,7 +21,6 @@ margin: 0;
     //src: url("./quicksand/Quicksand-bold.otf") format("opentype");
 }
 
-
 .name-box {
   //background: black;
         color: black;
@@ -30,7 +29,7 @@ margin: 0;
         border-radius: 1em;
         padding: 1em;
         position: absolute;
-        top: 49%;
+        top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
@@ -85,7 +84,7 @@ a:hover img:first-child {
   border-radius: 1em;
   padding: 1em;
   position: absolute;
-  top: 18%;
+  top: -225%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -10%)
@@ -104,4 +103,5 @@ a:hover img:first-child {
 //  margin-left: 0%; //centers the image
   height: 100%;
   //width: auto;
+
 }
